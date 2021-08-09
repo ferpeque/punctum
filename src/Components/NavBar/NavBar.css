@@ -1,0 +1,25 @@
+
+.Encabezado{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+
+Nav {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+}
+
+a {
+    display: flex;
+    margin: 10px; 
+   
+}
