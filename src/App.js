@@ -2,13 +2,13 @@
 // siempre se importa react from react 
 
 import { Navbar } from './Components/NavBar/NavBar'
+import { ItemListContainer } from './Components/ItemListContainer/ItemListContainer'
 
 function App() {
   return (
-    <div>
-      
+    <div>   
         <Navbar/>
-      
+        <ItemListContainer grettins="I m a Card"/>
     </div>
   );
 }
