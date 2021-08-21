@@ -6,7 +6,7 @@
         nombre: "Rollo_1",
         precio: 2000,
         desc:"salalaala",
-        img:""
+        img:"./img/Rollo.1.jpg"
 
     },
     {
