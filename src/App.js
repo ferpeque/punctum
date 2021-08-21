@@ -8,7 +8,7 @@ function App() {
   return (
     <div>   
         <Navbar/>
-        <ItemListContainer grettins="I m a Card"/>
+        <ItemListContainer/>
     </div>
   );
 }
