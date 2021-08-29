@@ -13,8 +13,15 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
+.TitulosContainer {
+    margin: 5px;
+    padding: 10px; 
+}
+
+
+
 img{
-    width: 60%; 
+    width: 70%; 
     border-radius: 5px 5px 0 0;  
 }
 

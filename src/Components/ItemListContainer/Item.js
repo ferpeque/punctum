@@ -1,4 +1,5 @@
 import './ItemListContainer.css'
+import { Link } from "react-router-dom"
 
 export const Item = ({item}) =>{
     console.log(item)
@@ -8,7 +9,8 @@ export const Item = ({item}) =>{
     <p>{item.nombre}</p>
     <p>{item.precio}</p>
     <img src={item.img}></img>
-    <button>Comprar</button>
+    <Link to = {`/detail/${item.id}`}>  <button>ver más</button>  </Link>
+
     </div>
 )
 }

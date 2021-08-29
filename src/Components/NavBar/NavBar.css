@@ -9,10 +9,12 @@
     height: 100px;
 }
 
-h1 {
+.Titulo {
     margin: 10px 10px 10px 30px;
+    text-decoration: none;  
         animation-name: expample;
         animation-duration: 4s;
+       
 }
 
 /*no funca*/
@@ -21,7 +23,7 @@ h1 {
         100%    {left:200px; top:0px;}
 }
 
-h1:hover {
+.Titulo:hover {
     color: red;
     cursor: pointer;
     
@@ -31,29 +33,32 @@ Nav {
     display: flex;
     margin: 10px;
     padding: 5px;
+    text-decoration: none;
 }
 
-a {
+.NavLink {
     display: flex;
     margin: 10px; 
     padding: 5px;
     text-decoration: none;
     font-size: 1.5em; 
+    color:black;
 }
 
-a:hover {
-    background-color: yellow;
+.NavLink:hover {
+    background-color: green;
     padding: 10px;
     text-decoration: line-through;
     text-transform: uppercase;
   }
 
+/*CartWidget*/
   .Icon{
     display: flex;
     margin: 10px; 
     padding: 5px;
     text-decoration: none;
-    font-size: 1.5em;  /*cambiar tamaño de Icon*/
+    font-size: 1.5em;  
     
 }
 
@@ -63,3 +68,6 @@ a:hover {
     text-transform: uppercase;
     cursor: pointer;
   }
+
+
+

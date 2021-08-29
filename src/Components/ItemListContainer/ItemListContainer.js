@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { pedirdatos } from '../../helpers/utils'
 import { ItemList } from './ItemList'
-
+import { useParams } from "react-router-dom"
 
 export const ItemListContainer = () => {
+
+const { catId } = useParams ()
+
+console.log(catId)
+
 
 const [data, setData] = useState ([]) 
 
@@ -20,13 +25,16 @@ const [data, setData] = useState ([])
 //momento particular --- única vez en el montaje 
 useEffect (() =>{
     pedirdatos()
-    .then   ( resp => {
-            //console.log(resp)
+    .then   
+    ( resp => {
+        if (catId) {
+            const arrayFilter = resp.filter (prod => prod.category === catId)
+            setData(arrayFilter)
+        } else {
             setData(resp)
+        }
         })
-   
-},[])
-    
+},[catId])
 
     return (
 

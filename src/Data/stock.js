@@ -3,6 +3,7 @@
  export const stock = [
     {
         id:1,
+        category:'rollos',
         nombre: "Rollo_1",
         precio: 2000,
         desc:"salalaala",
@@ -11,6 +12,7 @@
     },
     {
         id:2,
+        category:'camaras',
         nombre: "Rollo_2",
         precio: 2100,
         desc:"salalaala",
@@ -19,6 +21,7 @@
     },
     {
         id:3,
+        category:'camaras',
         nombre: "Rollo_3",
         precio: 2050,
         desc:"salalaala",
@@ -27,9 +30,10 @@
     },
     {
         id:4,
+        category:'rollos',
         nombre: "Rollo_4",
         precio: 1500,
-        desc:"salalaala",
+        desc:"salalaala",   
         img:""
 
     }
